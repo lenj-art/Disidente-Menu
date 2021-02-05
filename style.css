@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#141414, #262525);
+    color: white;
+    font-family: "Alegraya Sans", sans-serif;
+    font-weight: 300;
+}
+
+#heading {
+    padding-bottom: 15px;
+}
+
+#logo {
+    width: 24%;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 15px auto 0 auto;
+    display: block;
+}
+
+#nav {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#nav a:hover {
+    color: #00cbc6;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+h3 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+p {
+    padding-bottom: 20px;
+    line-height: 1.4em;
+}
+
+h3, p, table {
+    width: 90%;
+    margin: auto;
+}
+
+table td {
+    width: 100%;
+    line-height: 1.7em;
+}
+
+.menu {
+    padding: 3%;
+    background-color: #333131;
+    margin-bottom: 25px;
+    border-radius: 1.5%;
+}
+
+#last {
+    margin-bottom: 40px;
+}
+
+.desc {
+    color: #a7a7a7;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+em {
+    border-radius: 50%;
+    font-style: normal;
+}
+
+.em1 {
+    color: #00cbc6;
+    background-color: #00cbc6;
+}
+
+.em2 {
+    color: #ff39a4;
+    background-color: #ff39a4;
+}
+
+.alt {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 60px;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    border: 0px solid transparent;
+    border-spacing: 5px;
+    font-size: 15px;
+}
+
+.alt td {
+    background-color: #333131;
+    border-radius: 3px;
+}
+
+.alt em {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.inf {
+    width: 19%;
+}
+
+#azu .pro {
+    width: 40.5%;
+}
+
+#lec .pro {
+    width: 27%;
+}
