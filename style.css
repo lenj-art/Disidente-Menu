@@ -5,9 +5,17 @@
 
 body {
     background: linear-gradient(#141414, #262525);
+    /* background-color: black; */
     color: white;
     font-family: "Alegraya Sans", sans-serif;
     font-weight: 300;
+}
+
+.image img {
+    width: 30%;
+    object-fit: cover;
+    display: block;
+    margin: 50px auto 30px auto;
 }
 
 #heading {
